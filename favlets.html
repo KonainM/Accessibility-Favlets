@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <title>Favlets Installation Guide</title>
+</head>
+<body>
+  <main>
+    <h1> Favlets for Accessibility testing </h1>
+    <span>Please a find a list of some handy accessibility favelets below</span>
+    <div>
+      <h2> Installation Instructions</h2>
+      <ul>
+        <li><b>Chrome, Safari or newer versions of Firefox:</b> Drag the Favlet link to your browser's bookmarks bar.</li>
+        <li><b>IE or older versions of Firefox:</b> Right click or press the applications key on the Favlet link. Choose Add to Favorites, Add to Bookmarks or Bookmark this Link to add this Favlet to your Favorites or Bookmarks.</li>
+      </ul>
+    </div>
+    <div>
+      <h2> List of Favelets<h2>
+      <ul>
+        <li><a href="javascript:(function() { alert(document.activeElement.outerHTML);})();"> Active Element Indicator </a></li>
+        <li><a href="javascript:void((function(){andiScript=document.createElement('script');andiScript.setAttribute('src','https://www.ssa.gov/accessibility/andi/andi.js');document.body.appendChild(andiScript)})());">ANDI</a></li>
+        <li><a href="javascript:(function(){ var element=document.createElement('script'); element.setAttribute('src','https://mraccess77.github.io/favlets/enhanceFocus.js'); document.body.appendChild(element); } ) ();">Force Visual Focus</a></li>
+        <li><a href="javascript:void((function(){ var element=document.createElement('script'); element.setAttribute('src','https://mraccess77.github.io/favlets/ARIAchecker.js'); document.body.appendChild(element)})());">ARIA Favlet</a></li>
+        <li><a href="javascript:(function(){ var element=document.createElement('script'); element.setAttribute('src','https://mraccess77.github.io/favlets/textSpacing.js'); document.body.appendChild(element); } ) ();">WCAG 2.1 Text Spacing</a></li>
+        <li><a href="javascript:void((function(){var%20element=document.createElement('script');element.setAttribute('src','https://mraccess77.github.io/favlets/duplicateIds.js'); document.body.appendChild(element)})());">Duplicate Ids Favlet</a></li>
+        <li><a href="javascript:void((function(){var%20element=document.createElement('script');element.setAttribute('src','https://mraccess77.github.io/favlets/img-alt.js'); document.body.appendChild(element)})());">Visual Img Alt</a></li>
+        <li><a href="javascript:void((function(){var%20element=document.createElement('script');element.setAttribute('src','https://mraccess77.github.io/favlets/headings.js'); document.body.appendChild(element)})());">Visual Heading</a></li>
+        <li><a href="javascript:(function(){var%20element=document.createElement('script');element.setAttribute('src','https://mraccess77.github.io/favlets/lang.js');document.body.appendChild(element);})();">Lang Attributes</a></li>
+        <li><a href="javascript:(function(){var element=document.createElement('script'); element.setAttribute('src','https://mraccess77.github.io/favlets/title_attribute.js');document.body.appendChild(element);})();">Visual Title Attributes</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
